@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(urlencoded({ extended: true }));
 const corsOptions = {
-    origin: 'https://user-loginfrontend.vercel.app',
+    origin: 'https://userlogin-f.vercel.app',
     credentials: true
 }
 app.use(cors(corsOptions));
